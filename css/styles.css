@@ -844,7 +844,7 @@ p {
   top: 10px;
   width: 30px;
   height: 30px;
-  border: 1px solid #757575;
+  border: 1px solid #afb1b8;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -858,17 +858,10 @@ p {
 .modal-fill:hover,
 .modal-fill:focus {
   fill: #2196f3;
-  
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-fill:hover .modal-close {
-  border-color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-fill:focus .modal-close {
-  border-color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .is-hidden {
   opacity: 0;
