@@ -652,12 +652,17 @@ p {
   cursor: pointer;
   display: flex;
   justify-content: center;
+  
 }
 
 .subscribe-button:hover,
 .subscribe-button:focus{
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-svg-close{
+  margin-left: 10px;
 }
 
 /*-------------Portfolio---------*/
